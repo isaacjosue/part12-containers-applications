@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+  app:
+    image: blog-frontend
+    build:
+      context: ./blog-frontend
+      dockerfile: Dockerfile
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:8080/api
+  server:
+    image: blog-backend
+    build:
+      context: ./blog-backend
+      dockerfile: Dockerfile
+    environment:
+      - PORT=3000
+      - SECRET=potato
+      - MONGODB_URI=mongodb://mongo:27017/production
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_DATABASE: production
+    volumes:
+      - mongo_data:/data/db
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - app
+
+volumes:
+  mongo_data:

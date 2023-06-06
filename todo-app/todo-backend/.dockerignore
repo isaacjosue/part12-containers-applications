@@ -2,3 +2,7 @@ node_modules
 .gitignore
 .dockerignore
 Dockerfile
+dev.Dockerfile
+docker-compose.*
+.env
+*.http

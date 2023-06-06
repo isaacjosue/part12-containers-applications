@@ -1,0 +1,38 @@
+version: "3.8"
+
+services:
+  app:
+    image: blog-frontend-dev
+    build:
+      context: ./blog-frontend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./blog-frontend:/usr/src/app
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:3000/api
+    ports:
+      - 8080:3000
+  server:
+    image: blog-backend-dev
+    build:
+      context: ./blog-backend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./blog-backend:/usr/src/app
+    environment:
+      - PORT=3000
+      - SECRET=potato
+      - MONGODB_URI=mongodb://mongo:27017/testing
+    ports:
+      - 3000:3000
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_DATABASE: testing
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

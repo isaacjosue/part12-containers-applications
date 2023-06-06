@@ -1,0 +1,149 @@
+Script started on 2023-06-03 14:31:32-05:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="129" LINES="11"]
+[?2004h]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ exitdocker compose -f docker-compose.dev.yml exec -it mongo /bin/sh[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kexitdocker compose -f docker-compose.dev.yml exec -it mongo /bin/sh[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kexitdocker compose -f docker-compose.dev.yml exec -it mongo /bin/sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cup -d[K[1Pdownexec -it mongo /bin/sh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdown[Kup -dexec -it mongo /bin/sh[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kdocker compose -f tod o-app [K/todo-backend/docker-compose.dev.yml up -d
+[?2004l[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Network todo-backend_default  Creating                                                                                   0.0s
+[0m[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[37m ⠋ Volume "todo-backend_mongo_data"  Creating                                                                               0.0s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠙ Container todo-backend-mongo-1    Creating                                                                               0.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠹ Container todo-backend-mongo-1    Creating                                                                               0.2s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               0.3s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               0.4s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               0.5s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               0.6s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               0.7s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               0.8s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               0.9s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               1.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               1.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               1.2s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               1.3s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               1.4s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               1.5s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[+] Running 2/3
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[37m ⠿ Container todo-backend-mongo-1    Starting                                                                               1.6s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Network todo-backend_default      Created                                                                                0.1s
+[0m[34m ⠿ Volume "todo-backend_mongo_data"  Created                                                                                0.0s
+[0m[34m ⠿ Container todo-backend-mongo-1    Started                                                                                1.7s
+[0m[?25h[?2004h]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ docker container[K[K[K[K[K[K[K[Kontainer todo -backend-mongo-1 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C todo-backend-mongo-1[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- todo-backend-mongo-1[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci todo-backend-mongo-1[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct todo-backend-mongo-1[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -u root -p example[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -it to[1P[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -it tod[1P[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C -it todo[1P[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C -it todo-[1P[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C[C -it todo-b[1P[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C -it todo-ba[1P[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C -it todo-bac[1P[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C -it todo-back[1P[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C -it todo-backe[1P[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[Ce -it todo-back[1@e[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[Cx -it todo-bac[1@k[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[Ce -it todo-ba[1@c[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[Cc -it todo-b[1@a[A]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@m[1@o[1@n[1@g[1@o[1@s[1@h
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	647b9578f6097bfbd25b9098
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.9.1[0m
+Using MongoDB:		6.0.6
+[1m[33mUsing Mongosh[0m:		1.9.1
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the [1mdisableTelemetry()[0m command.
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2023-06-03T19:32:28.221+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2023-06-03T19:32:30.443+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+   2023-06-03T19:32:30.443+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         12.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   40.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.find({})
+[
+  {
+    _id: ObjectId("647b954bd7e4cc9797f585ba"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("647b954bd7e4cc9797f585bb"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.c[1G[0Jthe_database> db.[18Gtodos.inse[1G[0Jthe_database> db.todos.ins[27G[1G[0Jthe_database> db.todos.in[26G[1G[0Jthe_database> db.todos.i[25G[1G[0Jthe_database> db.todos.[24GinsertOne()[1D[1G[0Jthe_database> db.todos.insertOne[44m([49m)[34G[1G[0Jthe_database> db.todos.insertOne[44m([49m{)[35G[1G[0Jthe_database> db.todos.insertOne[44m([49m{})[36G[1D[1G[0Jthe_database> db.todos.insertOne([44m{[49m})[35G[1G[0Jthe_database> db.todos.insertOne([44m{[49mt})[36G[1G[0Jthe_database> db.todos.insertOne([44m{[49mte})[37G[1G[0Jthe_database> db.todos.insertOne([44m{[49mtex})[38G[1G[0Jthe_database> db.todos.insertOne([44m{[49mtext})[39G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m:})[40G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: })[41G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"})[39m[42G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"I})[39m[43G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"In})[39m[44G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Inc})[39m[45G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Incr})[39m[46G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Incre})[39m[47G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increa})[39m[48G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increas})[39m[49G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase})[39m[50G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase })[39m[51G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase t})[39m[52G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase th})[39m[53G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the})[39m[54G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the })[39m[55G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the n})[39m[56G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the nu})[39m[57G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the num})[39m[58G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the numb})[39m[59G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the numbe})[39m[60G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number})[39m[61G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number })[39m[62G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number o})[39m[63G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of})[39m[64G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of })[39m[65G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of t})[39m[66G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of to})[39m[67G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of too})[39m[68G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tool})[39m[69G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools})[39m[70G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools })[39m[71G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools i})[39m[72G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in})[39m[73G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in })[39m[74G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in m})[39m[75G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my})[39m[76G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my })[39m[77G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my r})[39m[78G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my ro})[39m[79G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my roo})[39m[80G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my ro})[39m[79G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my r})[39m[78G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my })[39m[77G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my t})[39m[78G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my to})[39m[79G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my too})[39m[80G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my tool})[39m[81G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolb})[39m[82G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbe})[39m[83G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbel})[39m[84G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbelt})[39m[85G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m})[86G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m,})[87G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, })[88G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, d})[89G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [36mdo[39m})[90G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, don})[91G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, done})[92G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:})[93G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:f})[94G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:fa})[95G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:fal})[96G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:fals})[97G[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:[33mfalse[39m})[98G[1D[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:[33mfalse[39m})[97G[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[94G[1C[1C[1C[1C[1C[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[99G[1C[1G[0Jthe_database> db.todos.insertOne[44m([49m{[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[100G[1D[1G[0Jthe_database> db.todos.insertOne([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[99G[1C[1G[0Jthe_database> db.todos.insertOne[44m([49m{[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[100G[1C[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[101G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId("647b95e6f6097bfbd25b9099")
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[101G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId("647b954bd7e4cc9797f585ba"),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId("647b954bd7e4cc9797f585bb"),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId("647b95e6f6097bfbd25b9099"),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004h]0;isaac@DESKTOP-6N4S7OD: /mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[01;32misaac@DESKTOP-6N4S7OD[00m:[01;34m/mnt/c/Users/User/Desktop/code/full-stack-open-part12/part12-containers-applications[00m$ exit
+[?2004lexit
+
+Script done on 2023-06-03 14:35:24-05:00 [COMMAND_EXIT_CODE="0"]
